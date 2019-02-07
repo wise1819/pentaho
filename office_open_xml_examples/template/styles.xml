@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style xmlns="http://reporting.pentaho.org/namespaces/engine/classic/bundle/style/1.0" xmlns:layout="http://reporting.pentaho.org/namespaces/engine/classic/bundle/layout/1.0" xmlns:core="http://reporting.pentaho.org/namespaces/engine/attributes/core" xmlns:html="http://reporting.pentaho.org/namespaces/engine/attributes/html" xmlns:swing="http://reporting.pentaho.org/namespaces/engine/attributes/swing" xmlns:pdf="http://reporting.pentaho.org/namespaces/engine/attributes/pdf" xmlns:designtime="http://reporting.pentaho.org/namespaces/report-designer/2.0" xmlns:crosstab="http://reporting.pentaho.org/namespaces/engine/attributes/crosstab" xmlns:pentaho="http://reporting.pentaho.org/namespaces/engine/attributes/pentaho" xmlns:table="http://reporting.pentaho.org/namespaces/engine/attributes/table" xmlns:page="http://jfreereport.sourceforge.net/namespaces/reports/legacy/ext">
+  <page-definition horizontal-span="1" vertical-span="1" pageformat="LETTER" orientation="portrait" margin-top="72" margin-left="72" margin-bottom="72" margin-right="72"/>
+  <layout:watermark designtime:hideInLayoutGUI="true">
+    <element-style>
+    </element-style>
+  </layout:watermark>
+  <layout:page-header designtime:visual-height="101.0" xmlns:wizard="http://reporting.pentaho.org/namespaces/engine/attributes/wizard" wizard:generated-content-marker="true">
+    <element-style>
+    </element-style>
+    <layout:content wizard:only-show-changing-values="true">
+      <element-style>
+        <content-styles scale="true" keep-aspect-ratio="true"/>
+        <spatial-styles x="337" y="0" min-width="111" min-height="34"/>
+      </element-style>
+      <core:value resource-type="resource-key">resourcekey:org.pentaho.reporting.libraries.resourceloader.loader.file.FileResourceLoader;D:\Downloads\Projektron_Logo.jpg</core:value>
+    </layout:content>
+    <layout:resource-label core:value="Nachweis (gebuchter Aufwand) ">
+      <element-style>
+        <border-styles background-color="#95a0e8"/>
+        <common-styles alignment="center" vertical-alignment="middle"/>
+        <spatial-styles x="18" y="50" min-width="430" min-height="42"/>
+        <text-styles font-face="Arial" bold="true" font-size="17"/>
+      </element-style>
+    </layout:resource-label>
+  </layout:page-header>
+  <layout:page-footer designtime:visual-height="74.0" xmlns:wizard="http://reporting.pentaho.org/namespaces/engine/attributes/wizard" wizard:generated-content-marker="true">
+    <element-style>
+    </element-style>
+  </layout:page-footer>
+</style>

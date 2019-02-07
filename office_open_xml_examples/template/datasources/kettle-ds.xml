@@ -1,0 +1,1 @@
+<data:kettle-datasource xmlns:data="http://jfreereport.sourceforge.net/namespaces/datasources/kettle"><data:query-file name="Query 1" repository="" filename="D:\FU_MSc\Pentaho\BuchungsdatenParameter\BuchungsdatenParameter.ktr" step="JSON-Eingabe - Buchungsattribute holen" stop-on-error="true"/></data:kettle-datasource>

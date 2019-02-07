@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns="http://reporting.pentaho.org/namespaces/engine/classic/bundle/layout/1.0" xmlns:style="http://reporting.pentaho.org/namespaces/engine/classic/bundle/style/1.0" xmlns:core="http://reporting.pentaho.org/namespaces/engine/attributes/core" xmlns:html="http://reporting.pentaho.org/namespaces/engine/attributes/html" xmlns:swing="http://reporting.pentaho.org/namespaces/engine/attributes/swing" xmlns:pdf="http://reporting.pentaho.org/namespaces/engine/attributes/pdf" xmlns:wizard="http://reporting.pentaho.org/namespaces/engine/attributes/wizard" xmlns:designtime="http://reporting.pentaho.org/namespaces/report-designer/2.0" xmlns:crosstab="http://reporting.pentaho.org/namespaces/engine/attributes/crosstab" xmlns:pentaho="http://reporting.pentaho.org/namespaces/engine/attributes/pentaho" xmlns:table="http://reporting.pentaho.org/namespaces/engine/attributes/table" core:auto-sort="true" xmlns:internal="http://reporting.pentaho.org/namespaces/engine/attributes/internal" internal:query-limit-inheritance="true">
+  <style:element-style>
+  </style:element-style>
+  <report-header>
+    <root-level-content designtime:visual-height="108.0" wizard:generated-content-marker="true">
+      <style:element-style>
+      </style:element-style>
+      <resource-label core:value="Berichtszeitraum:">
+        <style:element-style>
+          <style:spatial-styles x="18" y="2" min-width="97" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <resource-label core:value="Projekt-ID:">
+        <style:element-style>
+          <style:spatial-styles x="135" y="2" min-width="77" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <resource-label core:value="Name:">
+        <style:element-style>
+          <style:spatial-styles x="247" y="2" min-width="81" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <resource-label core:value="Erstelungsdatum">
+        <style:element-style>
+          <style:spatial-styles x="347" y="2" min-width="94" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <text-field core:field="name">
+        <style:element-style>
+          <style:border-styles background-color="white"/>
+          <style:spatial-styles x="247" y="22" min-width="100" min-height="20"/>
+        </style:element-style>
+      </text-field>
+      <text-field core:field="oid">
+        <style:element-style>
+          <style:border-styles background-color="white"/>
+          <style:spatial-styles x="135" y="22" min-width="84" min-height="20"/>
+        </style:element-style>
+      </text-field>
+      <text-field core:field="insDate">
+        <style:element-style>
+          <style:border-styles background-color="white"/>
+          <style:spatial-styles x="347" y="24" min-width="100" min-height="20"/>
+        </style:element-style>
+      </text-field>
+      <date-field core:field="effortIntervallFinancialYear">
+        <style:element-style>
+          <style:border-styles background-color="white"/>
+          <style:spatial-styles x="18" y="22" min-width="100" min-height="20"/>
+        </style:element-style>
+      </date-field>
+      <resource-label core:value="Name">
+        <style:element-style>
+          <style:border-styles background-color="#95a0e8"/>
+          <style:common-styles alignment="center" vertical-alignment="middle"/>
+          <style:spatial-styles x="18" y="52" min-width="85" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <resource-label core:value="Datum">
+        <style:element-style>
+          <style:border-styles background-color="#95a0e8"/>
+          <style:common-styles alignment="center" vertical-alignment="middle"/>
+          <style:spatial-styles x="103" y="52" min-width="97" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <resource-label core:value="Vorgang">
+        <style:element-style>
+          <style:border-styles background-color="#95a0e8"/>
+          <style:common-styles alignment="center" vertical-alignment="middle"/>
+          <style:spatial-styles x="200" y="52" min-width="147" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11"/>
+        </style:element-style>
+      </resource-label>
+      <resource-label core:value="Aufwand">
+        <style:element-style>
+          <style:border-styles background-color="#95a0e8" border-left-color="black"/>
+          <style:common-styles alignment="center" vertical-alignment="middle"/>
+          <style:spatial-styles x="347" y="52" min-width="100" min-height="20"/>
+          <style:text-styles font-face="Arial" bold="true" font-size="11" line-height="0"/>
+        </style:element-style>
+      </resource-label>
+      <text-field core:field="userFirstname">
+        <style:element-style>
+          <style:spatial-styles x="18" y="77" min-width="73" min-height="20"/>
+        </style:element-style>
+      </text-field>
+      <date-field core:field="effortIntervall">
+        <style:element-style>
+          <style:spatial-styles x="354" y="72" min-width="87" min-height="20"/>
+        </style:element-style>
+      </date-field>
+      <text-field core:field="effortActivity">
+        <style:element-style>
+          <style:spatial-styles x="228" y="72" min-width="100" min-height="20"/>
+        </style:element-style>
+      </text-field>
+      <date-field core:field="effortDate">
+        <style:element-style>
+          <style:spatial-styles x="118" y="73" min-width="100" min-height="20"/>
+        </style:element-style>
+      </date-field>
+    </root-level-content>
+  </report-header>
+  <group>
+    <style:element-style>
+    </style:element-style>
+    <fields>
+    </fields>
+    <group-header>
+      <root-level-content designtime:hideInLayoutGUI="true">
+        <style:element-style>
+        </style:element-style>
+      </root-level-content>
+    </group-header>
+    <data-body>
+      <style:element-style>
+      </style:element-style>
+      <details-header designtime:hideInLayoutGUI="true">
+        <style:element-style>
+          <style:common-styles avoid-page-break="true"/>
+        </style:element-style>
+      </details-header>
+      <details>
+        <root-level-content designtime:visual-height="108.0" wizard:generated-content-marker="true">
+          <style:element-style>
+          </style:element-style>
+        </root-level-content>
+      </details>
+      <no-data>
+        <root-level-content designtime:hideInLayoutGUI="true">
+          <style:element-style>
+          </style:element-style>
+        </root-level-content>
+      </no-data>
+      <details-footer designtime:hideInLayoutGUI="true">
+        <style:element-style>
+          <style:common-styles avoid-page-break="true"/>
+        </style:element-style>
+      </details-footer>
+    </data-body>
+    <group-footer>
+      <root-level-content designtime:hideInLayoutGUI="true">
+        <style:element-style>
+        </style:element-style>
+      </root-level-content>
+    </group-footer>
+  </group>
+  <report-footer>
+    <root-level-content designtime:visual-height="108.0" wizard:generated-content-marker="true">
+      <style:element-style>
+      </style:element-style>
+    </root-level-content>
+  </report-footer>
+</layout>
